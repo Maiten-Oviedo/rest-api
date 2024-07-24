@@ -18,6 +18,7 @@ app.use(
         'http://localhost:1234',
         'http://movies.com',
         'http://127.0.0.1:5500',
+        'https://rest-api-5fbh.onrender.com',
       ]
       if (ACCEPTED_ORIGINS.includes(origin)) {
         callback(null, true)
